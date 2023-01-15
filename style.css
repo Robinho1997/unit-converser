@@ -73,9 +73,7 @@ input::-webkit-inner-spin-button {
 /**
 *! styles of generated elements here
 **/
-#conversion-section {
-    margin-top: 150px;
-}
+
 .conversion-elements {
     background-color: #ffffff;
     color: #5A537B;
