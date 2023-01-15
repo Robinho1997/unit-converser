@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+
+/**
+*! General styles here
+**/
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+   }
+   
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {  
+    -webkit-appearance: none;
+    margin: 0; 
+   }
+ 
+   
+/**
+*! Top Section Stlyes here
+**/
+
+#top-section {
+    background-color: #6943FF;
+    padding-top: 1px;
+    height: 285px;
+   
+    text-align: center;
+}
+
+.header-top {
+    font-size: 28px;
+    font-weight: 800;
+    color:  #fff;
+}
+
+#input-num {
+    background-color: #6943FF;
+    color:  #fff;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    width: 117px;
+    height: 83px;
+    border: 1px solid #B295FF;
+    border-radius: 5px;  
+    padding: 0;  
+    margin-block: 20px;
+}
+
+#input-num:focus {
+    outline: none;
+}
+
+#convert-btn {
+    background-color: #fff;
+    color: #3d3d3d;
+    margin: 0 auto;
+    display: block;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #B295FF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/**
+*! styles of generated elements here
+**/
+#conversion-section {
+    margin-top: 150px;
+}
+.conversion-elements {
+    background-color: #ffffff;
+    color: #5A537B;
+    width: 500px;
+    height: 108.57px;
+    border-radius: 4.6px;
+    margin:  0 auto;
+    text-align: center;
+    
+}
+
+.conversion-elements p {
+    font-size: 14px;
+}
+
+.conversion-elements h2 {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#length {
+    margin-top: 50px;
+}
+
+
+.error-message {
+    color:rgb(247, 105, 105);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
